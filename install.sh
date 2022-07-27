@@ -30,6 +30,8 @@ exit 1
 # Arguments
 # ----------------------------------------------------------------------------------------
 
+ts='date -u +'%FT%H-%M-%S''
+
 OPTIND=1
 while getopts "hrf" opt; do
   case "$opt" in
@@ -63,7 +65,7 @@ shift "$((OPTIND-1))"
 
 case "$OSTYPE" in
   darwin*)  export OS_TYPE="OSX" ;;
-  #linux*)   export OS_TYPE="LINUX" ;;
+  linux*)   export OS_TYPE="LINUX" ;;
   *)
     echo -e "\e[01;31mERROR\e[0m: $OSTYPE not supported!"
     exit 1
