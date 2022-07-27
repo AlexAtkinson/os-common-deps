@@ -26,6 +26,7 @@ The majority of these dependencies are up to date versions of common gnu kit, wh
 
 Note that brew installs packages in '/usr/local/Cellar/' and creates symlinks in '/usr/opt/local' and '/usr/local/bin'.
 
+| ----------- | ----------- | ---------- | --------------- |
 | brew        | curl        | gnu-which  | ca-certificates |
 | bash        | gnu-sed     | grep       |                 |
 | coreutils   | gnu-tar     | md5sha1sum |                 |
