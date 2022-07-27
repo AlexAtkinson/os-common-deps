@@ -26,8 +26,6 @@ The majority of these dependencies are up to date versions of common gnu kit, wh
 
 Note that brew installs packages in '/usr/local/Cellar/' and creates symlinks in '/usr/opt/local' and '/usr/local/bin'.
 
-| MacOS Packages                                           |
-| ----------- | ----------- | ---------- | --------------- |
 | brew        | curl        | gnu-which  | ca-certificates |
 | bash        | gnu-sed     | grep       |                 |
 | coreutils   | gnu-tar     | md5sha1sum |                 |
@@ -37,7 +35,6 @@ Note that brew installs packages in '/usr/local/Cellar/' and creates symlinks in
 | git         | yq          | binutils   |                 |
 | mutagen     | findutils   | openssl    | docker          |
 | wget        | gnu-getopt  | gnutls     | asdf            |
-| ----------- | ----------- | ---------- | --------------- |
 
 ### Linux
 
